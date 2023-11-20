@@ -135,7 +135,7 @@ class Core{
     playlistButton.setAttribute('sq-boxcollider', 'size: 1 0.3 0.05');
     playlistButton.setAttribute('sq-interactable', '');
     const buttonGlb = document.createElement('a-entity');
-    buttonGlb.setAttribute('gltf-model','https://cdn.glitch.global/cf03534b-1293-4351-8903-ba15ffa931d3/ButtonL.glb?v=1689782699922');
+    buttonGlb.setAttribute('gltf-model','https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/ButtonL.glb?v=1700452373257');
     playlistButton.appendChild(buttonGlb);
     playlistButton.setAttribute('position', this.params["singer-button-position"]);
     playlistButton.setAttribute('rotation', this.params["singer-button-rotation"]);
@@ -205,7 +205,7 @@ class Core{
         position: "right", // `left`, `center` or `right`
         // stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-          background: "url(https://cdn.glitch.global/cf03534b-1293-4351-8903-ba15ffa931d3/angryimg.png?v=1689619321813) center center no-repeat",
+          background: "url(https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/angryimg.png?v=1700452372625) center center no-repeat",
           backgroundSize: "cover",
           opacity: 0.7,
           fontSize: "2em",
@@ -252,11 +252,11 @@ class Core{
     const playlistButton = document.createElement('a-entity');
     playlistButton.setAttribute('sq-boxcollider', `size: ${size == 'small' ? '0.3 0.2 0.05': size == 'medium' ? '0.45 0.2 0.05' : '0.6 0.2 0.05' }`);
     playlistButton.setAttribute('sq-interactable', '');
-    playlistButton.setAttribute('src', 'https://cdn.glitch.global/cf03534b-1293-4351-8903-ba15ffa931d3/angryimg.png?v=1689619321813');
+    playlistButton.setAttribute('src', 'https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/angryimg.png?v=1700452372625');
     
-    const glb = size == 'small' ? 'https://cdn.glitch.global/cf03534b-1293-4351-8903-ba15ffa931d3/ButtonS.glb?v=1689782700343' 
-    : size == 'medium' ? 'https://cdn.glitch.global/cf03534b-1293-4351-8903-ba15ffa931d3/ButtonM.glb?v=1689785121891'
-    : 'https://cdn.glitch.global/cf03534b-1293-4351-8903-ba15ffa931d3/ButtonL.glb?v=1689782699922';
+    const glb = size == 'small' ? 'https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/ButtonS.glb?v=1700452372363' 
+    : size == 'medium' ? 'https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/ButtonM.glb?v=1700452373565'
+    : 'https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/ButtonL.glb?v=1700452373257';
     
     playlistButton.setAttribute('gltf-model',glb);
     // playlistButton.setAttribute('depth', '0.05');
