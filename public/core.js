@@ -208,7 +208,7 @@ class Core{
           background: "url(https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/angryimg.png?v=1700452372625) center center no-repeat",
           backgroundSize: "cover",
           opacity: 0.7,
-          fontSize: "2em",
+          fontSize: "1em",
           fontFamily: "'Roboto', sans-serif"
         },
         // onClick: function(){} // Callback after click
