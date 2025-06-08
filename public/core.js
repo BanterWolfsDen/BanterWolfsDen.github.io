@@ -135,7 +135,7 @@ class Core{
     playlistButton.setAttribute('sq-boxcollider', 'size: 1 0.3 0.05');
     playlistButton.setAttribute('sq-interactable', '');
     const buttonGlb = document.createElement('a-entity');
-    buttonGlb.setAttribute('gltf-model','https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/ButtonL.glb?v=1700452373257');
+    buttonGlb.setAttribute('gltf-model','https://cdn.discordapp.com/attachments/1381281947422167080/1381284752157310986/ButtonL.glb?ex=6846f52b&is=6845a3ab&hm=23e3952f2bdb1b0a23b47edf0dc4a4aa03b685e1625ba3d0fd0bc13b55e0a6ab&');
     playlistButton.appendChild(buttonGlb);
     playlistButton.setAttribute('position', this.params["singer-button-position"]);
     playlistButton.setAttribute('rotation', this.params["singer-button-rotation"]);
@@ -205,7 +205,7 @@ class Core{
         position: "right", // `left`, `center` or `right`
         // stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-          background: "url(https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/angryimg.png?v=1700452372625) center center no-repeat",
+          background: "url(https://cdn.discordapp.com/attachments/1381281947422167080/1381284751939473550/angryimg.png?ex=6846f52b&is=6845a3ab&hm=9fb9dbde946b33724ebc5887a816a65c9d358aad1366afc3a09ded1591b99823&) center center no-repeat",
           backgroundSize: "cover",
           opacity: 0.7,
           fontSize: "1em",
@@ -252,11 +252,11 @@ class Core{
     const playlistButton = document.createElement('a-entity');
     playlistButton.setAttribute('sq-boxcollider', `size: ${size == 'small' ? '0.3 0.2 0.05': size == 'medium' ? '0.45 0.2 0.05' : '0.6 0.2 0.05' }`);
     playlistButton.setAttribute('sq-interactable', '');
-    playlistButton.setAttribute('src', 'https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/angryimg.png?v=1700452372625');
+    playlistButton.setAttribute('src', 'https://cdn.discordapp.com/attachments/1381281947422167080/1381284751939473550/angryimg.png?ex=6846f52b&is=6845a3ab&hm=9fb9dbde946b33724ebc5887a816a65c9d358aad1366afc3a09ded1591b99823&');
     
-    const glb = size == 'small' ? 'https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/ButtonS.glb?v=1700452372363' 
-    : size == 'medium' ? 'https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/ButtonM.glb?v=1700452373565'
-    : 'https://cdn.glitch.global/fe3afa7e-7b8d-42b7-a503-8c6fde6e846c/ButtonL.glb?v=1700452373257';
+    const glb = size == 'small' ? 'https://cdn.discordapp.com/attachments/1381281947422167080/1381284753189376060/ButtonS.glb?ex=6846f52c&is=6845a3ac&hm=0147d25179d2981f703728841e31f992fa95f37651c1b2f265166b49d112a74b&' 
+    : size == 'medium' ? 'https://cdn.discordapp.com/attachments/1381281947422167080/1381284752547385464/ButtonM.glb?ex=6846f52c&is=6845a3ac&hm=4cb668706bf6d3bb20dbd73dbce1fee059a94264c130aa1a79efd00bd16654ee&'
+    : 'https://cdn.discordapp.com/attachments/1381281947422167080/1381284752157310986/ButtonL.glb?ex=6846f52b&is=6845a3ab&hm=23e3952f2bdb1b0a23b47edf0dc4a4aa03b685e1625ba3d0fd0bc13b55e0a6ab&';
     
     playlistButton.setAttribute('gltf-model',glb);
     // playlistButton.setAttribute('depth', '0.05');
