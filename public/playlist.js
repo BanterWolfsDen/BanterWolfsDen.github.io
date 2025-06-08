@@ -1,6 +1,6 @@
 class PlaylistPlayer {
   constructor() {
-    this.hostUrl = 'brave-regular-nephew.glitch.me';
+    this.hostUrl = 'banterwolfsden.github.io/public/';
     this.currentScript = Array.from(document.getElementsByTagName('script')).slice(-1)[0];
     this.init();
   }
