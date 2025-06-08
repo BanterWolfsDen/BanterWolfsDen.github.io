@@ -2,11 +2,11 @@ const { WebSocket } = require('@encharm/cws');
 const express = require('express');
 const http = require('http');
 const path = require('path');
-const Youtube = require('https://banterwolfsden.github.io/youtube/scraper.js');
+const Youtube = require('./youtube/scraper.js');
 const youtube = new Youtube();
 const ytfps = require('ytfps');
 const fetch = require('node-fetch');
-const Commands = require('https://banterwolfsden.github.io/public/commands.js');
+const Commands = require('../public/commands.js');
 
 class App{
   constructor() {

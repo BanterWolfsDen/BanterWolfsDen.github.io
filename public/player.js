@@ -1,6 +1,6 @@
 class Player {
   constructor(){
-    this.hostUrl = 'banterwolfsden.github.io/';
+    this.hostUrl = 'banterwolfsden.github.io/public/';
     this.currentScript = Array.from(document.getElementsByTagName('script')).slice(-1)[0];
     this.init();
   }
